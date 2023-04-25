@@ -20,3 +20,6 @@ def main():
     x_values = np.linspace(-10, 10, 100)
     x, y = generate_synthetic_data(x_values, coefficients)
     visualize_data(x, y)
+    
+if __name__ == '__main__':
+    main()
